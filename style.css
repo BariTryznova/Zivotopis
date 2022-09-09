@@ -3,18 +3,30 @@ body {
     color: #283538;
 }
 
+h1 {
+    font-family: 'Redressed', cursive;
+    font-size: 5em;
+    color: #CCBE29;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
 .Bari {
     width: 200px;
-    border: 4px solid #283538;
+    border: 4px solid #CCBE29;
     border-radius: 100px;
-    float: right;
 }
 
 img {
     width: 350px;
 }
 
-.hlavicka {
+a {
+    color: #CCBE29;
+}
+
+.Omne {
     background-color: #D9D4A5;
-    padding: 150px 30px 150px 30px;
 }
