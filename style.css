@@ -1,7 +1,20 @@
-h1 {
-    color: red
+body {
+    font-family: 'Montserrat', sans-serif; 
+    color: #283538;
 }
 
 .Bari {
     width: 200px;
+    border: 4px solid #283538;
+    border-radius: 100px;
+    float: right;
+}
+
+img {
+    width: 350px;
+}
+
+.hlavicka {
+    background-color: #D9D4A5;
+    padding: 150px 30px 150px 30px;
 }
