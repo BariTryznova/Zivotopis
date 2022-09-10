@@ -6,10 +6,11 @@ body {
 }
 
 h1 {
-    font-family: 'Redressed', cursive;
-    font-size: 5em;
+    font-size: 4.5em;
     color: #CCBE29;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 0;
 }
 
 h2 {
@@ -27,8 +28,10 @@ h3 {
     width: 150px;
     border: 4px solid #CCBE29;
     border-radius: 40px;
+    float: left;
+    margin-right: 400px;
+    margin-left: 0;
     float: right;
-    margin: 0 0 30px 30px;
 }
 
 img {
@@ -37,19 +40,20 @@ img {
     border: 4px solid #D9D4A5;
 }
 
-a {
+.Kontakty a {
     color: white;
 }
 
 .Omne {
     background-color: #D9D4A5;
+    padding-bottom: 0;
 }
 
 .Omne img {
     border: 4px solid #D9D4A5;
     width: 23%;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 30px;    
 }
 
 .Zkusenosti img {
@@ -62,8 +66,14 @@ a {
     margin: 0 0 30px 30px;
 }
 
-section,
-.Hlavicka, 
+.Omne {
+    padding: 60px 15% 0 15%;
+}
+
+.Zkusenosti,
+.Znalosti,
+.Zajmy,
+.Kontakty,
 .Paticka {
     padding: 60px 15% 60px 15%;
     overflow: auto;
@@ -81,4 +91,39 @@ section,
 .Paticka {
     background-color: #283538;
     color: white;
+}
+
+.Kontakty p {
+    text-align: center;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #D9D4A5;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: #283538;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #283538;
+    color: white;
+}
+
+.Omne {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
 
