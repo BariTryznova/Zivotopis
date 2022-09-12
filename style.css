@@ -3,6 +3,7 @@ body {
     color: #283538;
     line-height: 1.8;
     margin: 0;
+    font-size: 18px;
 }
 
 h1 {
@@ -37,7 +38,7 @@ h3 {
 img {
     width: 350px;
     border-radius: 20px;
-    border: 4px solid #D9D4A5;
+    border: 4px solid #CCBE29;
 }
 
 .Kontakty a {
@@ -50,7 +51,7 @@ img {
 }
 
 .Omne img {
-    border: 4px solid #D9D4A5;
+    border: 3px solid #CCBE29;
     width: 23%;
     border-radius: 20px;
     margin-top: 30px;    
@@ -58,12 +59,13 @@ img {
 
 .Zkusenosti img {
     float: left;
-    margin: 0 30px 30px 0;
+    margin: 40px 30px 30px 0;
 }
 
 .Zajmy img {
     float: right;
     margin: 0 0 30px 30px;
+    width: 200px;
 }
 
 .Omne {
@@ -94,13 +96,14 @@ img {
 }
 
 .Kontakty p {
-    text-align: center;
+    text-align: left;
 }
 
 .menu {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-weight: bold;
     background-color: #D9D4A5;
 }
 
@@ -111,7 +114,7 @@ img {
 .menu a {
     color: #283538;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px 50px;
     display: inline-block;
 }
 
